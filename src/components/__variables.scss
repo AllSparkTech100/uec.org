@@ -1,0 +1,22 @@
+$new: snow;
+$all: black;
+$primary:blue;
+
+*{
+    box-sizing:border-box;
+    user-select: none;
+    flex-wrap: wrap;
+}
+
+
+
+button{
+    padding: 1rem 2rem;
+    border-radius: 30px;
+    border: none;
+    color: $new;
+    font-family:'Poppins';
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color:$all;
+}

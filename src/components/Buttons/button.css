@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  flex-wrap: wrap;
+}
+
+button {
+  padding: 1rem 2rem;
+  border-radius: 30px;
+  border: none;
+  color: snow;
+  font-family: "Poppins";
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: black;
+}/*# sourceMappingURL=button.css.map */

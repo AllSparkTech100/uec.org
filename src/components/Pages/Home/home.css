@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  flex-wrap: wrap;
+}
+
+button {
+  padding: 1rem 2rem;
+  border-radius: 30px;
+  border: none;
+  color: snow;
+  font-family: "Poppins";
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: black;
+}
+
+.main {
+  background-image: linear-gradient(rgba(52, 87, 202, 0.836), rgba(1, 14, 48, 0.822)), url(../../../Photos/help.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+}
+.main .need h3 {
+  font-family: "Poppins";
+  font-size: 2rem;
+  position: relative;
+  top: 10vh;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  color: black;
+}
+.main .need h3 span {
+  color: snow;
+  font-weight: bold;
+  font-size: 4rem;
+}
+.main .mid {
+  position: relative;
+  top: 20vh;
+  height: 7rem;
+  width: 100%;
+  background-color: slateblue;
+}/*# sourceMappingURL=home.css.map */
