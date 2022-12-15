@@ -4,17 +4,27 @@ import "./home.css"
 function Home (){
     return(
         <>
-        <div className="main">
         <Nav/>
+        <div className="main">
+<div className="marq">
+<marquee behaviour="scroll" direction="left">
 
-        <div className="need">
-        <h3>Needing <span>Jesus Christ</span> Together</h3> 
-        </div>  
-        
-        <div className="mid">
-        <h5>Our Bible Study</h5>
-        <h6>Join us on our awesome Bible study class every <span>Wednesdays</span></h6>
-        </div>
+        <ul>
+        <li><p>John 3:16 - "For God so loved the World, <br></br> that he gave His only begotten........ </p></li>
+        <li><p>John 2:16 - "For God so loved the World, <br></br> that he gave His only begotten........ </p></li>
+        <li><p>John 5:16 - "For God so loved the World, <br></br> that he gave His only begotten........ </p></li>
+        <li><p>John 5:16 - "For God so loved the World, <br></br> that he gave His only begotten........ </p></li>
+        <li><p>John 5:16 - "For God so loved the World, <br></br> that he gave His only begotten........ </p></li>
+        <li><p>John 5:16 - "For God so loved the World, <br></br> that he gave His only begotten........ </p></li>
+        <li><p>John 5:16 - "For God so loved the World, <br></br> that he gave His only begotten........ </p></li>
+        <li><p>John 5:16 - "For God so loved the World, <br></br> that he gave His only begotten........ </p></li>
+        <li><p>John 5:16 - "For God so loved the World, <br></br> that he gave His only begotten........ </p></li>
+        <li><p>John 5:16 - "For God so loved the World, <br></br> that he gave His only begotten........ </p></li>
+        <li><p>John 30:16 - "For God so loved the World, <br></br> that he gave His only begotten........ </p></li>
+        </ul>
+        </marquee>
+</div>
+
         </div>
 
         </>

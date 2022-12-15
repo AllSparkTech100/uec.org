@@ -7,10 +7,9 @@ function Welcome () {
     return(
         <>
         <div className="body">
-
         <h1>Welcome <br></br>We are United Evangelical Church - Diobu <br></br> The Cathedral of Grace, Mercy and Peace.</h1>
 
-        <Link to="/Home" target="_parent"><Button text='Continue'/></Link>
+        <div className="btn-1"><Link to="/Home" target="_parent"><Button text='Continue'/></Link></div>
         </div>
 
         </>

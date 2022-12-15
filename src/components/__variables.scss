@@ -1,14 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;1,300;1,400&family=Staatliches&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,300;1,400&family=Staatliches&display=swap');
+
 $new: snow;
 $all: black;
 $primary:blue;
 
+.menu{
+    display: none;
+}
+
 *{
     box-sizing:border-box;
     user-select: none;
-    flex-wrap: wrap;
 }
 
-
+a{
+    text-decoration: none;
+}
 
 button{
     padding: 1rem 2rem;
@@ -19,4 +28,5 @@ button{
     font-weight: bold;
     text-transform: uppercase;
     background-color:$all;
+    cursor: pointer;
 }

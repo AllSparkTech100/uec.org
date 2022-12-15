@@ -1,10 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;1,300;1,400&family=Staatliches&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,300;1,400&family=Staatliches&display=swap");
+.menu {
+  display: none;
+}
+
 * {
   box-sizing: border-box;
   -webkit-user-select: none;
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
-  flex-wrap: wrap;
+}
+
+a {
+  text-decoration: none;
 }
 
 button {
@@ -16,34 +25,66 @@ button {
   font-weight: bold;
   text-transform: uppercase;
   background-color: black;
+  cursor: pointer;
 }
 
-.main {
-  background-image: linear-gradient(rgba(52, 87, 202, 0.836), rgba(1, 14, 48, 0.822)), url(../../../Photos/help.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 100vh;
-  width: 100%;
+@media all and (min-width: 1024px) and (max-width: 1280px) {
+  .main {
+    background-image: linear-gradient(rgba(100, 20, 29, 0.301), rgba(65, 2, 2, 0.541)), url(../../../Photos/stand.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+  }
+  .main .marq {
+    position: fixed;
+    height: 38vh;
+    width: 100%;
+    background-color: rgb(224, 172, 1);
+  }
+  .main .marq marquee {
+    position: relative;
+    bottom: 13%;
+    color: black;
+    font-size: 42px;
+  }
+  .main .marq marquee ul {
+    display: flex;
+    align-items: center;
+  }
+  .main .marq marquee ul li {
+    list-style: square;
+    margin: 0 90px 0 0;
+  }
 }
-.main .need h3 {
-  font-family: "Poppins";
-  font-size: 2rem;
-  position: relative;
-  top: 10vh;
-  align-items: center;
-  display: flex;
-  justify-content: center;
-  color: black;
-}
-.main .need h3 span {
-  color: snow;
-  font-weight: bold;
-  font-size: 4rem;
-}
-.main .mid {
-  position: relative;
-  top: 20vh;
-  height: 7rem;
-  width: 100%;
-  background-color: slateblue;
+@media all and (min-width: 1280px) and (max-width: 1500px) {
+  .main {
+    background-image: linear-gradient(rgba(100, 20, 29, 0.301), rgba(65, 2, 2, 0.541)), url(../../../Photos/stand.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+  }
+  .main .marq {
+    position: fixed;
+    height: 30vh;
+    width: 100%;
+    background-color: rgb(224, 172, 1);
+  }
+  .main .marq marquee {
+    position: relative;
+    bottom: 13%;
+    color: black;
+    font-size: 42px;
+  }
+  .main .marq marquee ul {
+    display: flex;
+    align-items: center;
+  }
+  .main .marq marquee ul li {
+    list-style: square;
+    margin: 0 90px 0 0;
+  }
 }/*# sourceMappingURL=home.css.map */

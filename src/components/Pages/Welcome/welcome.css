@@ -1,10 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;1,300;1,400&family=Staatliches&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,300;1,400&family=Staatliches&display=swap");
+.menu {
+  display: none;
+}
+
 * {
   box-sizing: border-box;
   -webkit-user-select: none;
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
-  flex-wrap: wrap;
+}
+
+a {
+  text-decoration: none;
 }
 
 button {
@@ -16,31 +25,66 @@ button {
   font-weight: bold;
   text-transform: uppercase;
   background-color: black;
-}
-
-.body {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.658), rgba(102, 0, 0, 0.623)), url(../../../Photos/church.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: bottom;
-  height: 100vh;
-  width: 100%;
-}
-.body h1 {
-  position: absolute;
-  top: 40vh;
-  left: 15vw;
-  color: snow;
-  font-family: "Kanit";
-  font-size: 3rem;
-  line-height: 1;
-}
-.body a, .body button {
-  position: relative;
-  top: 35vh;
   cursor: pointer;
 }
-.body a:hover, .body button:hover {
-  background-color: snow;
-  color: black;
+
+@media all and (min-width: 1024px) and (max-width: 1280px) {
+  .body {
+    position: fixed;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.658), rgba(102, 0, 0, 0.623)), url(../../../Photos/church.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    height: 100vh;
+    width: 100%;
+  }
+  .body h1 {
+    position: relative;
+    top: 30%;
+    text-align: center;
+    color: snow;
+    font-family: "Kanit";
+    font-size: 40px;
+    line-height: 1;
+  }
+  .body .btn-1 {
+    position: relative;
+    top: 42%;
+    width: 20%;
+    left: 41.3%;
+  }
+  .body button:hover {
+    background-color: snow;
+    color: black;
+  }
+}
+@media all and (min-width: 1280px) and (max-width: 1500px) {
+  .body {
+    position: fixed;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.658), rgba(102, 0, 0, 0.623)), url(../../../Photos/church.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    height: 100vh;
+    width: 100%;
+  }
+  .body h1 {
+    position: relative;
+    top: 30%;
+    text-align: center;
+    color: snow;
+    font-family: "Kanit";
+    font-size: 40px;
+    line-height: 1;
+  }
+  .body .btn-1 {
+    position: relative;
+    top: 42%;
+    width: 20%;
+    left: 41.3%;
+  }
+  .body button:hover {
+    background-color: snow;
+    color: black;
+  }
 }/*# sourceMappingURL=welcome.css.map */

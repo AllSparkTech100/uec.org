@@ -1,36 +1,68 @@
 @import "../../_variables";
 
+
+@media  all and (min-width:1024px) and (max-width:1280px){
 .main{
-    background-image:linear-gradient( rgba(52, 87, 202, 0.836), rgba(1, 14, 48, 0.822)), url(../../../Photos/help.jpg);
-    background-position: center;
+    background-image: linear-gradient(rgba(100, 20, 29, 0.301),rgba(65, 2, 2, 0.541)),url(../../../Photos/stand.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
     height: 100vh;
     width: 100%;
-    
-    .need{
-        h3{
-            font-family: "Poppins";
-            font-size: 2rem;
+
+    .marq{
+        position: fixed;
+        height: 38vh;
+        width: 100%;
+        background-color: rgb(224, 172, 1);
+        marquee{
             position: relative;
-            top: 10vh;
-            align-items: center;
-            display: flex;
-            justify-content: center;
+            bottom: 13%;
             color: $all;
-        
-            span{
-                color: $new;
-                font-weight: bold;
-                font-size: 4rem;
+            font-size: 42px;
+
+            ul{
+                display: flex;
+                align-items: center;
+                li{
+                    list-style:square;
+                    margin: 0 90px 0 0;
+                }
             }
         }
     }
-
-    .mid{
-        position: relative;
-        top: 20vh;
-        height: 7rem;
-        width: 100%;
-        background-color: slateblue;
-    }
 }
+}
+
+@media  all and (min-width:1280px) and (max-width:1500px){
+    .main{
+        background-image: linear-gradient(rgba(100, 20, 29, 0.301),rgba(65, 2, 2, 0.541)),url(../../../Photos/stand.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position:center;
+        height: 100vh;
+        width: 100%;
+    
+        .marq{
+            position: fixed;
+            height: 30vh;
+            width: 100%;
+            background-color: rgb(224, 172, 1);
+            marquee{
+                position: relative;
+                bottom: 13%;
+                color: $all;
+                font-size: 42px;
+    
+                ul{
+                    display: flex;
+                    align-items: center;
+                    li{
+                        list-style:square;
+                        margin: 0 90px 0 0;
+                    }
+                }
+            }
+        }
+    }
+    }
