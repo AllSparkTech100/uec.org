@@ -1,0 +1,40 @@
+@media screen and (max-width: 480px) {
+  section {
+    height: 100vh;
+    font-family: "Poppins";
+    width: 100vw;
+  }
+  section .intro {
+    height: 40vh;
+    width: 100vw;
+    color: white;
+    background: #000;
+  }
+  section .intro h4 {
+    position: relative;
+    top: 22px;
+    margin-left: 10%;
+    font-size: 12px;
+  }
+  section .intro h4 span {
+    font-size: 20px;
+  }
+  section .intro-2 {
+    text-align: center;
+    height: 110vh;
+    width: auto;
+    position: relative;
+    top: 10%;
+  }
+  section .intro-2 .thought h3 {
+    font-size: 16px;
+  }
+  section .intro-2 .thought h4 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  section .box {
+    height: 90%;
+  }
+}/*# sourceMappingURL=home.css.map */

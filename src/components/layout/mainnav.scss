@@ -1,0 +1,23 @@
+header{
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 5rem;
+    position: sticky;
+    top: 0;
+    width: 100vw;
+    z-index: 999;
+
+    .logo{
+        display: flex;
+        align-items: center;
+        border-radius: 50%;
+        background-color: #fff;
+
+        img{
+            height: 60px;
+            width: 65px;
+        }
+    }
+}

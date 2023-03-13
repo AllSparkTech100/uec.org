@@ -1,0 +1,46 @@
+@import '../../../_variables';
+
+@media screen and (max-width:480px) {
+    section{
+        height: 100vh;
+        font-family: $fam;
+        width: 100vw;
+      .intro{
+        height: 40vh;
+        width: 100vw;
+          color: $font;
+          background: #000;
+        h4{
+            position: relative;
+            top: 22px;
+            margin-left: 10%;
+            font-size: 12px;
+            span{
+                font-size: 20px;
+            }
+        }
+      }
+
+    .intro-2{
+        text-align: center;
+        height: 110vh;
+        width: auto;
+        position: relative;
+        top: 10%;
+
+         .thought{
+            h3{
+                font-size: 16px;
+            }
+            h4{
+                text-transform: uppercase;
+                font-weight: bold;
+                font-size: 18px;
+            }
+         }
+      }
+      .box{
+          height: 90%;
+      }
+    }
+}

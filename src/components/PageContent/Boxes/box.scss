@@ -1,0 +1,44 @@
+@import '../../../_variables';
+
+.boxes{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 10%;
+    box-sizing: border-box;
+
+    .box{
+        height: 30vh;
+        background: rgb(119, 115, 115);
+        width: 350px;
+        margin: 3px;
+        border-radius: 5px;
+        text-align: left;
+        box-sizing: border-box;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .boxes{
+        flex-wrap: wrap;
+        .box{
+            h3{
+                text-transform: uppercase;
+                text-decoration: underline 3px solid $font;
+                position: relative;
+                top: 10px;
+                font-size: 16px;
+                left: 20px;
+            }
+    
+            p{
+                position: relative;
+                top: 14px;
+                left: 20px;
+                font-size: 12px;
+                width: 80%;
+            }
+        }
+    }
+    
+}
