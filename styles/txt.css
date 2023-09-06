@@ -2,6 +2,8 @@
 * {
   font-family: "Poppins";
   scroll-behavior: smooth;
+  scroll-snap-type: proximity;
+  scrollbar-width: 12px;
 }
 
 .inn {
@@ -10,15 +12,6 @@
   width: 50px;
   height: 2px;
   background-color: red;
-}
-
-#main {
-  scroll-snap-type: y mandatory;
-  overflow-y: scroll;
-  scroll-padding: 100px;
-}
-#main .container {
-  scroll-snap-align: start;
 }
 
 #thou {

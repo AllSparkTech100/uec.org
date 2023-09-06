@@ -3,9 +3,9 @@
 * {
   font-family: "Poppins";
   scroll-behavior: smooth;
-  
+  scroll-snap-type: proximity;
+  scrollbar-width: 12px;
 }
-
 
 .inn {
   position: relative;
@@ -15,15 +15,6 @@
   background-color: red;
 }
 
-
-#main{
-  scroll-snap-type: y mandatory;
-  overflow-y: scroll;
-  scroll-padding: 100px;
-  .container{
-    scroll-snap-align: start;
-  }
-}
 
 #thou{
   background-image: linear-gradient(rgba(0, 0, 0, 0.633), rgba(0, 0, 0, 0.633)),url("https://media.wired.co.uk/photos/606da390d8817d4fe4c508c5/master/w_1600%2Cc_limit/iStock-475673037.jpg");
