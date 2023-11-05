@@ -6,6 +6,20 @@
   scroll-snap-align: inherit;
 }
 
+.small-carrier {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: snow;
+  height: 50vh;
+  width: 100vw;
+}
+.small-carrier .small-inner {
+  text-align: center;
+  position: relative;
+  top: 43% !important;
+}
+
 .inn {
   position: relative;
   top: -14px;
@@ -48,4 +62,10 @@
 .loader-wrapper.fade {
   opacity: 0;
   visibility: hidden;
+}
+
+.bg-image {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }/*# sourceMappingURL=txt.css.map */
