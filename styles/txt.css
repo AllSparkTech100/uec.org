@@ -20,6 +20,17 @@
   top: 43% !important;
 }
 
+.coming_btn {
+  padding: 1rem 3rem;
+  background-color: #fff;
+  text-align: center;
+  border: none;
+  border-radius: 10px;
+}
+.coming_btn a:link {
+  text-decoration: none;
+}
+
 .inn {
   position: relative;
   top: -14px;
@@ -68,4 +79,12 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+}
+
+.coming {
+  background-image: url("https://static.vecteezy.com/system/resources/thumbnails/003/582/701/small/coming-soon-background-illustration-template-design-free-vector.jpg");
+  height: 80vh;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
 }/*# sourceMappingURL=txt.css.map */
