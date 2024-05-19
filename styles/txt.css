@@ -2,33 +2,32 @@
 * {
   font-family: "Poppins";
   scroll-behavior: smooth;
-  scroll-snap-type: mandatory;
+  scroll-snap-type: Y mandatory;
   scroll-snap-align: inherit;
 }
 
 .small-carrier {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: snow;
-  height: 50vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.248), rgba(0, 0, 0, 0.304)), url("./images/FOUNDATION.png");
+  height: 60vh !important;
   width: 100vw;
 }
-.small-carrier .small-inner {
-  text-align: center;
-  position: relative;
-  top: 43% !important;
-}
 
-.coming_btn {
+.coming {
+  background-image: url("https://static.vecteezy.com/system/resources/thumbnails/003/582/701/small/coming-soon-background-illustration-template-design-free-vector.jpg");
+  height: 80vh;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.coming .coming_btn {
   padding: 1rem 3rem;
-  background-color: #fff;
   text-align: center;
   border: none;
   border-radius: 10px;
 }
-.coming_btn a:link {
+.coming .coming_btn a {
   text-decoration: none;
+  color: snow;
 }
 
 .inn {
@@ -79,12 +78,4 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-}
-
-.coming {
-  background-image: url("https://static.vecteezy.com/system/resources/thumbnails/003/582/701/small/coming-soon-background-illustration-template-design-free-vector.jpg");
-  height: 80vh;
-  width: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
 }/*# sourceMappingURL=txt.css.map */

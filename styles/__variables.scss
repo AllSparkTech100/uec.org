@@ -1,34 +1,42 @@
 * {
   font-family: "Poppins";
   scroll-behavior: smooth;
-  scroll-snap-type: mandatory;
+  scroll-snap-type: Y mandatory;
   scroll-snap-align: inherit;
 }
 
 $new: snow;
 
 .small-carrier {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: $new;
-  height: 50vh;
+  // display: flex;
+  // align-items: center;
+  // justify-content: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.248), rgba(0, 0, 0, 0.304)),
+    url("./images/FOUNDATION.png");
+  // color: $new;
+  height: 60vh !important;
   width: 100vw;
-
-  .small-inner {
-    text-align: center;
-    position: relative;
-    top: 43% !important;
-  }
+  // .small-inner {
+  //   text-align: center;
+  //   position: relative;
+  //   top: 43% !important;
+  // }
 }
 
-.coming_btn{
-  padding:1rem 3rem;
-  background-color: #fff;
-  text-align: center;
-  border: none;
-  border-radius: 10px;
-  a:link{
-    text-decoration: none;
+.coming {
+  background-image: url("https://static.vecteezy.com/system/resources/thumbnails/003/582/701/small/coming-soon-background-illustration-template-design-free-vector.jpg");
+  height: 80vh;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  .coming_btn {
+    padding: 1rem 3rem;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+    a {
+      text-decoration: none;
+      color: snow;
+    }
   }
 }
